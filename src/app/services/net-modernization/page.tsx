@@ -2,8 +2,13 @@ import ServicePageLayout from '@/components/ServicePageLayout';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '.NET Modernization | Nanosoft Technologies',
-  description: 'Upgrade your .NET applications with modern frameworks, architecture patterns, and cloud-native approaches for better performance and scalability.',
+  title: '.NET Application Modernization Services Canada | Nanosoft Technologies',
+  description: 'Professional .NET modernization services in Canada. Upgrade legacy .NET Framework applications with modern architecture, microservices, and cloud-native patterns for improved performance.',
+  keywords: ['.NET modernization', '.NET Core upgrade', 'legacy application modernization', 'microservices architecture', '.NET consulting Canada'],
+  openGraph: {
+    title: '.NET Modernization Services - Upgrade Your Applications',
+    description: 'Transform your legacy .NET applications with modern frameworks and cloud-native architecture patterns.',
+  },
 };
 
 export default function NetModernization() {

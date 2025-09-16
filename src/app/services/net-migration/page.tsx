@@ -2,8 +2,13 @@ import ServicePageLayout from '@/components/ServicePageLayout';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '.NET Migration | Nanosoft Technologies',
-  description: 'Migrate your legacy .NET Framework applications to .NET Core/.NET 5+ for improved performance, cross-platform compatibility, and modern features.',
+  title: '.NET Framework to .NET Core Migration Services | Nanosoft Technologies',
+  description: 'Expert .NET Framework to .NET Core migration services in Canada. Migrate legacy applications to modern .NET platforms for better performance, cross-platform support, and long-term maintainability.',
+  keywords: ['.NET Framework migration', '.NET Core migration', '.NET 8 upgrade', 'legacy .NET modernization', '.NET migration consulting'],
+  openGraph: {
+    title: '.NET Migration Services - Framework to Core/5+ Migration',
+    description: 'Seamlessly migrate your .NET Framework applications to modern .NET Core/.NET 5+ platforms.',
+  },
 };
 
 export default function NetMigration() {

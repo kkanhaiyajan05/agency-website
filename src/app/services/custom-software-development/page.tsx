@@ -2,8 +2,13 @@ import ServicePageLayout from '@/components/ServicePageLayout';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Custom Software Development | RedBytes',
-  description: 'Build tailored software solutions that perfectly fit your business needs and workflows with our expert custom development team.',
+  title: 'Custom Software Development Services Canada | Nanosoft Technologies',
+  description: 'Expert custom software development in Canada. Build tailored web and mobile applications that perfectly fit your business needs. Get scalable, maintainable solutions from our experienced team.',
+  keywords: ['custom software development', 'bespoke software Canada', 'web application development', 'mobile app development Toronto', 'software consulting'],
+  openGraph: {
+    title: 'Custom Software Development Services in Canada',
+    description: 'Build tailored software solutions that perfectly fit your business needs and workflows with our expert development team.',
+  },
 };
 
 export default function CustomSoftwareDevelopment() {

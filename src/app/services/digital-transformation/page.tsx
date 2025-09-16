@@ -2,8 +2,13 @@ import ServicePageLayout from '@/components/ServicePageLayout';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Digital Transformation | Nanosoft Technologies',
-  description: 'Comprehensive digital strategy and implementation to modernize your entire business ecosystem with cutting-edge technology solutions.',
+  title: 'Digital Transformation Consulting Services Canada | Nanosoft Technologies',
+  description: 'Strategic digital transformation consulting in Canada. Modernize your business with comprehensive digital strategy, process optimization, and cutting-edge technology implementation.',
+  keywords: ['digital transformation', 'digital strategy consulting', 'business process digitization', 'technology modernization Canada', 'digital innovation'],
+  openGraph: {
+    title: 'Digital Transformation Consulting - Modernize Your Business',
+    description: 'Comprehensive digital strategy and implementation to transform your entire business ecosystem.',
+  },
 };
 
 export default function DigitalTransformation() {
